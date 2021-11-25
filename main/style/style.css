@@ -33,7 +33,7 @@ body{
 .navigation-bar .logo a{
     font-size: 35px;
     color: white;
-    font-weight: 700;
+    font-weight: 700 ;
 }
 .navigation-bar .logo a span{
     color: crimson;
