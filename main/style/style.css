@@ -4,5 +4,10 @@
 body{
     background-image: url("../images/Portfolio_Wireframe.png");
     background-size: cover;
+    
+}
+
+.navigation-bar{
     font-family: 'Overpass', sans-serif;
+    
 }
