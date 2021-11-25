@@ -20,6 +20,8 @@ body{
     width: 100%;
     background-color: black;
     font-family: 'Overpass', sans-serif;
+    padding: 15px 0;
+    border-bottom: 1px solid crimson;
 }
 
 .navigation-bar .max-width{
@@ -31,7 +33,10 @@ body{
 .navigation-bar .logo a{
     font-size: 35px;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
+}
+.navigation-bar .logo a span{
+    color: crimson;
 }
 .navigation-bar .menu li a{
     color: white;
