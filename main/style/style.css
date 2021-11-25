@@ -13,14 +13,11 @@ body{
     
 }
 .logo{
-    border: 1px solid black;
     padding: 20px;
 }
 
 .navigation-bar li{
     display:inline;
-    border: 1px solid black;
-    
     padding: 20px;
     list-style: none;
 }
