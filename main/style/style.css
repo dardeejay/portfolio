@@ -1,23 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,500;0,600;1,500&display=swap');
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 body{
-    background-image: url("../images/Portfolio_Wireframe.png");
+    background-image: url(../images/Portfolio_Wireframe.png);
     background-size: cover;
-    
 }
 
+.max-width{
+    max-width:1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 .navigation-bar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
     font-family: 'Overpass', sans-serif;
-    display: flex;
-    
-}
-.logo{
-    padding: 20px;
 }
 
-.navigation-bar li{
-    display:inline;
-    padding: 20px;
+.navigation-bar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-bar .logo a{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+.navigation-bar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navigation-bar .menu li{
     list-style: none;
+    display: inline-block;
+}
+
+.navigation-bar .menu li a:hover{
+    color: crimson;
 }
