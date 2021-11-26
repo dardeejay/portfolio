@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-image: url(../images/Portfolio_Wireframe_light3.png);
@@ -21,7 +22,6 @@ body{
     width: 100%;
     background-color: black;
     background-blend-mode: overlay;
-    font-family: 'Poppins', sans-serif;
     padding: 15px 0;
     border-bottom: 1px solid #920000;
 }
@@ -73,7 +73,6 @@ body{
     margin-top: 200px;
     margin-left: 105px;
     font-size: 60px;
-    font-family: 'Poppins', sans-serif;
     z-index: -1;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -86,7 +85,6 @@ body{
     -webkit-text-stroke: 0.6px black;
     display: inline-block;
     position: absolute;
-    font-family: 'Poppins', sans-serif;
     margin-top: 390px;
     margin-left: 105px;
     font-size: 17.3px;
