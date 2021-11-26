@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,500;0,600;1,500&display=swap');
 *{
     margin: 0;
@@ -19,9 +20,9 @@ body{
     position: fixed;
     width: 100%;
     background-color: black;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 15px 0;
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid #920000;
 }
 
 .navigation-bar .max-width{
@@ -36,7 +37,7 @@ body{
     font-weight: 700 ;
 }
 .navigation-bar .logo a span{
-    color: crimson;
+    color: #920000;
 }
 .navigation-bar .menu li a{
     color: white;
@@ -50,16 +51,29 @@ body{
 }
 
 .navigation-bar .menu li a:hover{
-    color: crimson;
+    color: #920000;
 }
 
 
 #selfie{
-    width: 400px;
-    height: 400px;
-    margin-top: 150px;
-    margin-right: 75px;
+    position: static;
+    width: 392px;
+    height: 464px;
+    margin-top: 120px;
+    margin-right: 510px;
     float: right;  
+    
+}
+
+#name{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 350px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 
