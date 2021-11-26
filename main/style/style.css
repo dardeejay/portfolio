@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(../images/Portfolio_Wireframe.png);
+    background-image: url(../images/Portfolio_Wireframe_light.png);
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body{
 .navigation-bar{
     position: fixed;
     width: 100%;
-    background-color: black;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
     padding: 15px 0;
     border-bottom: 1px solid #920000;
@@ -33,16 +33,16 @@ body{
 
 .navigation-bar .logo a{
     font-size: 35px;
-    color: white;
+    color: black;
     font-weight: 700 ;
 }
 .navigation-bar .logo a span{
     color: #920000;
 }
 .navigation-bar .menu li a{
-    color: white;
+    color: black;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 1000;
     margin-left: 25px;
 }
 .navigation-bar .menu li{
@@ -59,21 +59,24 @@ body{
     position: static;
     width: 392px;
     height: 464px;
-    margin-top: 120px;
-    margin-right: 510px;
+    margin-top: 170px;
+    margin-right: 637px;
     float: right;  
-    
+    z-index: 0;
 }
 
 #name{
     display: inline-block;
     position: absolute;
-    color: white;
-    margin-top: 150px;
-    margin-left: 350px;
-    font-size: 40px;
+    color: black;
+    margin-top: 200px;
+    margin-left: 170px;
+    font-size: 50px;
     font-family: 'Poppins', sans-serif;
-    
+    z-index: -1;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 10px;
 }
 
 
