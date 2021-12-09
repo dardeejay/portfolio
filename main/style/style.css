@@ -117,16 +117,59 @@ body{
     font-weight: 300;
 }
 
+
+.contact-me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-top: 100px;
+    
+}
+
 .facebook-link{
     border: 1px solid black;
     padding: 50px;
     width: 25%;
-    height: 25%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    height: 25% ;
+    
 }
 .facebook-link img{
+    width: 200px;
+    height: 200px;
+}
+
+.twitter-link{
+    border: 1px solid black;
+    padding: 50px;
+    width: 25%;
+    height: 25% ;
+
+}
+.twitter-link img{
+    width: 200px;
+    height: 200px;
+}
+.github-link{
+    border: 1px solid black;
+    padding: 50px;
+    width: 25%;
+    height: 25% ;
+   
+}
+.github-link img{
+    width: 200px;
+    height: 200px;
+}
+
+.email-link{
+    border: 1px solid black;
+    padding: 50px;
+    width: 25%;
+    height: 25% ;
+    
+}
+.email-link img{
     width: 200px;
     height: 200px;
 }
