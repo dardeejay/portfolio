@@ -125,7 +125,7 @@ body{
     
 }
 .outside-links li{
-    width: 23%;
+    width: 24%;
     height: 250px;
     background-color: white;
     border-radius: 10px;
@@ -136,8 +136,8 @@ body{
     justify-content: center;
 }
 .outside-links li img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     transform: scale(1);
     transition-duration: 500ms;
 }
@@ -145,8 +145,6 @@ body{
     transform: scale(1.5);
     transition-duration: 500ms;
 }
-.outside-links li p{
-    display: block;
-}
+
 
 
