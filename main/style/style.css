@@ -61,7 +61,7 @@ body{
     position: static;
     width: 392px;
     height: 464px;
-    margin-top: 170px;
+    margin-top: 205px;
     margin-right: 637px;
     float: right;  
     z-index: 0;
@@ -115,4 +115,18 @@ body{
 }
 .details2 .smalldetails p:last-child{
     font-weight: 300;
+}
+
+.facebook-link{
+    border: 1px solid black;
+    padding: 50px;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.facebook-link img{
+    width: 200px;
+    height: 200px;
 }
