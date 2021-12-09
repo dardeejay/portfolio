@@ -116,60 +116,25 @@ body{
 .details2 .smalldetails p:last-child{
     font-weight: 300;
 }
-
-
-.contact-me-container{
+.outside-links ul{
     display: flex;
-    justify-content: center;
+    list-style-type: none;
+    justify-content: space-between;
     align-items: center;
-    padding: 1px;
-    margin-top: 100px;
     
 }
-
-.facebook-link{
-    border: 1px solid black;
-    padding: 50px;
-    width: 25%;
-    height: 25% ;
-    
+.outside-links li{
+    width: 20%;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 90px 100px;
+    margin-top: 200px;
+    box-shadow:1px 1px 1px 1px grey;
 }
-.facebook-link img{
-    width: 200px;
-    height: 200px;
-}
-
-.twitter-link{
-    border: 1px solid black;
-    padding: 50px;
-    width: 25%;
-    height: 25% ;
-
-}
-.twitter-link img{
-    width: 200px;
-    height: 200px;
-}
-.github-link{
-    border: 1px solid black;
-    padding: 50px;
-    width: 25%;
-    height: 25% ;
-   
-}
-.github-link img{
-    width: 200px;
-    height: 200px;
+.outside-links li img{
+    width: 50px;
+    height: 50px;
 }
 
-.email-link{
-    border: 1px solid black;
-    padding: 50px;
-    width: 25%;
-    height: 25% ;
-    
-}
-.email-link img{
-    width: 200px;
-    height: 200px;
-}
+
