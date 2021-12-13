@@ -285,6 +285,7 @@ body{
     display: flex;
     align-items: top;
     margin-left: 75px; 
+    margin-top: 30px;
 }
 .blog-page .blog-container{
     width:800px;
@@ -303,5 +304,11 @@ body{
     width: 400px;
     height: 400px;
     border: 1px solid white;
-    border-radius: 30px;;
+    border-radius: 10px;;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.blog-page .blog-menu li{
+    margin-top:20px;
 }
