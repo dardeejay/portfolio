@@ -7,8 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(../images/Portfolio_Wireframe.png);
+    background-image: url(../images/pewdiepie-red-and-black-wavy-background-uhd-4k-wallpaper.jpg);
     background-size: cover;
+    
 }
 
 .max-width{
@@ -84,7 +85,6 @@ body{
 
 .details{
     color: white;
-    
     display: inline-block;
     position: absolute;
     margin-top: 390px;
@@ -94,7 +94,6 @@ body{
 }
 .details2{
     color: white;
-    
     display: inline-block;
     position: absolute;
     margin-top: 205px;
@@ -108,17 +107,18 @@ body{
     margin-top: 20px;
     font-weight: 500;
     border-bottom: 1px solid white;
+
 }
 
 .details2 .smalldetails p:first-child{
-    font-weight: 300;
+    font-weight: 400;
     border-bottom: none;
 }
 .details2 .smalldetails p:last-child{
-    font-weight: 300;
+    font-weight: 400;
 }
 
-/* About Me Styling */
+/* Contact Me Styling */
 .outside-links ul{
     display: flex;
     list-style-type: none;
@@ -126,12 +126,12 @@ body{
     align-items: center;
     
 }
-.outside-links li{
-    width: 24%;
-    height: 300px;
+.outside-links a{
+    width: 16%;
+    height: 200px;
     background-color: whitesmoke;
     border-radius: 10px;
-    margin-top: 150px;
+    margin-top: 230px;
     box-shadow:1px 1px 1px 1px grey;
     display: flex;
     align-items: center;
@@ -148,7 +148,19 @@ body{
     transition-duration: 500ms;
 }
 
+/* About Me Styling */
 
-
-
+.about-first-detail{
+    color: white;
+    
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 85px;   
+    padding: 100px;
+    
+}
+.about-first-detail #textcontent1{
+    width: 500px;
+}
 
